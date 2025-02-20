@@ -1,0 +1,12 @@
+#!/bin/bash
+
+app_path=$(osascript -e 'POSIX path of (path to application "VimR")')
+
+if [[ $? != 0 ]]
+then
+    osascript -e 'tell app "MailMate" to display dialog "Make sure you have VimR (and python3) installed." buttons "OK" default button 1 with title "Unable to locate VimR"' >/dev/null 2>&1 &
+    exit 0
+fi
+
+edit="${app_path}/Contents/Resources/vimr"
+"${edit}" --wait --line "${MM_LINE_NUMBER}" --name "${MM_TITLE:-(no subject)}" "${MM_EDIT_FILEPATH}"
