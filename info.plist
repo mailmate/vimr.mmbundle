@@ -1,6 +1,16 @@
-{	"contactEmailRot13" = "zz-ohaqyrf@sereba.pbz";
-	contactName = "Benny Kjær Nielsen";
-	description = "VimR integration.";
-	name = "VimR";
-	uuid = "4AB3EBDE-DD6C-4FF7-92D2-73D21BF309AD";
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>zz-ohaqyrf@sereba.pbz</string>
+	<key>contactName</key>
+	<string>Benny Kjær Nielsen</string>
+	<key>description</key>
+	<string>VimR integration.</string>
+	<key>name</key>
+	<string>VimR</string>
+	<key>uuid</key>
+	<string>4AB3EBDE-DD6C-4FF7-92D2-73D21BF309AD</string>
+</dict>
+</plist>
