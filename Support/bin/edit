@@ -9,4 +9,4 @@ then
 fi
 
 edit="${app_path}/Contents/Resources/vimr"
-"${edit}" --wait --line "${MM_LINE_NUMBER}" --name "${MM_TITLE:-(no subject)}" "${MM_EDIT_FILEPATH}"
+"${edit}" --wait --line "${MM_LINE_NUMBER}" "${MM_EDIT_FILEPATH}"
